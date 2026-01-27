@@ -30,7 +30,7 @@ dependencies: [
 
 This package includes:
 - LevelPlay iOS SDK (Unity Mediation SDK)
-- BidMachine SDK v3.5.1
+- BidMachine SDK v3.5.2
 
 ## Documentation
 

@@ -8,7 +8,7 @@ let package = Package(
     .library(name: "BidMachineAdapter", targets: ["BidMachineAdapter"]),
   ],
   dependencies: [
-    .package(url: "https://github.com/bidmachine/BidMachine-SPM", exact: "3.5.1"),
+    .package(url: "https://github.com/bidmachine/BidMachine-SPM", exact: "3.5.2"),
     .package(url: "https://github.com/ironsource-mobile/Unity-Mediation-iAds-Swift-Package", "9.0.0"..<"10.0.0"),
   ],
   targets: [
