@@ -22,8 +22,8 @@ let package = Package(
     ),
     .binaryTarget(
       name: "BidMachineAdapterSDK",
-      url: "https://raw.githubusercontent.com/ironsource-mobile/iOS-adapters/master/bidmachine-adapter/5.3.0/ISBidMachineAdapter5.3.0.zip",
-      checksum: "573bb06ef6a62a8b8e27914bb799ab094303b95679f918de2d659415a6c2a652"
+      url: "https://raw.githubusercontent.com/ironsource-mobile/iOS-adapters/master/bidmachine-adapter/5.4.0/ISBidMachineAdapter5.4.0.zip",
+      checksum: "33f4227adf22c18f72f7a0a8417364da5c64cbd62b2d63112ff79edf4d282590"
     )
   ]
 )
