@@ -8,7 +8,7 @@ let package = Package(
     .library(name: "BidMachineAdapter", targets: ["BidMachineAdapter"]),
   ],
   dependencies: [
-    .package(url: "https://github.com/bidmachine/BidMachine-SPM", exact: "3.7.0"),
+    .package(url: "https://github.com/bidmachine/BidMachine-SPM", exact: "3.7.1"),
     .package(url: "https://github.com/ironsource-mobile/Unity-Mediation-iAds-Swift-Package", "9.0.0"..<"10.0.0"),
   ],
   targets: [
@@ -22,8 +22,8 @@ let package = Package(
     ),
     .binaryTarget(
       name: "BidMachineAdapterSDK",
-      url: "https://raw.githubusercontent.com/ironsource-mobile/iOS-adapters/master/bidmachine-adapter/5.6.0/ISBidMachineAdapter5.6.0.zip",
-      checksum: "9dfe87a096b6adb3c66dacde5c6ab9e145326dba90db1fdb2f4308478fa63c4c"
+      url: "https://raw.githubusercontent.com/ironsource-mobile/iOS-adapters/master/bidmachine-adapter/5.7.0/ISBidMachineAdapter5.7.0.zip",
+      checksum: "c34a5de6aced56b0570349a89fcae3c437163e7391759a1f57da4f2479395a28"
     )
   ]
 )
